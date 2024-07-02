@@ -1,0 +1,8 @@
+nodejs
+npm
+yay
+docker
+docker-compose
+discord
+xclip
+xsel
