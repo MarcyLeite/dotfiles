@@ -1,3 +1,5 @@
 ca-certificates
 curl
 zsh
+xclip
+xsel
