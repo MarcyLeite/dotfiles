@@ -16,7 +16,7 @@ npm install -g $(cat ./packages/npm-global.txt)
 ./scripts/install-docker.sh
 
 # Configure git
-./scripts/config-git.sh "Matheus Marciano" "mm.leitea@outlook.com"
+./scripts/setup-git.sh "Matheus Marciano" "mm.leitea@outlook.com"
 
 # Install oh-my-zsh
 ./scripts/install-omzsh.sh

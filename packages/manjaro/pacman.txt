@@ -1,4 +1,3 @@
 yay
 discord
 xclip
-code
