@@ -1,0 +1,6 @@
+monokai.theme-monokai-pro-vscode
+pkief.material-icon-theme
+esbenp.prettier-vscode
+dbaeumer.vscode-eslint
+vue.volar
+ms-vscode.vscode-typescript-next
