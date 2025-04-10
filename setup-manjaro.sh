@@ -9,9 +9,6 @@ yay -S --noconfirm $(cat ./packages/manjaro/yay.txt)
 # Install node
 ./scripts/install-node.sh
 
-# Install npm globals
-npm install -g $(cat ./packages/npm-global.txt)
-
 # Install docker
 ./scripts/install-docker.sh
 
@@ -20,3 +17,6 @@ npm install -g $(cat ./packages/npm-global.txt)
 
 # Install oh-my-zsh
 ./scripts/install-omzsh.sh
+
+# Install vscode extensions
+./scripts/setup-vscode.sh

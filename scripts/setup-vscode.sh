@@ -8,9 +8,15 @@ echo '{
     "editor.insertSpaces": false
 }' > ~/.config/Code/User/settings.json
 
-echo '[
+echo "[
 	{
-		"key": "ctrl+shift+'",
-		"command": "workbench.action.terminal.new"
+		\"key\": \"ctrl+shift+'\",
+		\"command\": \"workbench.action.terminal.new\"
 	}
-]' > ~/.config/Code/User/keybindings.json
+]" > ~/.config/Code/User/keybindings.json
+
+cat ./packages/vscode-extensions.txt |
+	while read in; do
+		code --install-extension $in	
+	done
+
