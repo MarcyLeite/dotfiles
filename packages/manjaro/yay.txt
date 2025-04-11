@@ -1,2 +1,4 @@
 spotify
 visual-studio-code-bin
+insomnia
+dbeaver
